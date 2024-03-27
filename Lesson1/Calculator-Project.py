@@ -30,3 +30,5 @@ try:
 
 except ZeroDivisionError:
     print('DIVIDE BY 0 ERROR')
+except ValueError:
+    print('Undefined value')
