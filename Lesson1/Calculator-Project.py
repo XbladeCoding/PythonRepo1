@@ -1,6 +1,8 @@
 from math import sqrt
 
-firstPrompt = input('Welcome to Python Calculator! What would you like to do? ')
+firstPrompt = input(
+'Welcome to Python Calculator! What would you like to do? The options are to add, subtract, multiply, divide, raise to power, and sqrt.'
+)
 
 #First we create basic arthmetic operations
 try:
